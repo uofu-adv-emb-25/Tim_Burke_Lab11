@@ -24,7 +24,7 @@ set(CMAKE_ASM_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_ASM
-  "CFG_TUSB_DEBUG=0"
+  "CFG_TUSB_DEBUG=1"
   "CFG_TUSB_MCU=OPT_MCU_RP2040"
   "CFG_TUSB_OS=OPT_OS_PICO"
   "CYW43_ENABLE_BLUETOOTH=1"
@@ -86,7 +86,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "PICO_32BIT=1"
   "PICO_BOARD=\"pico_w\""
   "PICO_BUILD=1"
-  "PICO_CMAKE_BUILD_TYPE=\"Release\""
+  "PICO_CMAKE_BUILD_TYPE=\"Debug\""
   "PICO_CONFIG_RTOS_ADAPTER_HEADER=/home/burkedambly/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h"
   "PICO_COPY_TO_RAM=0"
   "PICO_CXX_ENABLE_EXCEPTIONS=0"

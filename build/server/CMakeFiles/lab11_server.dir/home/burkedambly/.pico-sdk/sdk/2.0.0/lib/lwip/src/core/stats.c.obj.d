@@ -6,45 +6,29 @@ server/CMakeFiles/lab11_server.dir/home/burkedambly/.pico-sdk/sdk/2.0.0/lib/lwip
  /home/burkedambly/.pico-sdk/sdk/2.0.0/lib/lwip/src/include/lwip/debug.h \
  /home/burkedambly/.pico-sdk/sdk/2.0.0/lib/lwip/src/include/lwip/arch.h \
  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_lwip/include/arch/cc.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/time.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/_ansi.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/newlib.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/_newlib_version.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/config.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/ieeefp.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/features.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/cdefs.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/_default_types.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/_timeval.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/_types.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/_types.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/types.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/_stdint.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/endian.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/_endian.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/select.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/_sigset.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/timespec.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/_timespec.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/_pthreadtypes.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/sched.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/types.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/time.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/_ansi.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/reent.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/lock.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/time.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/_locale.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/_time.h \
+ /usr/include/newlib/sys/time.h /usr/include/newlib/_ansi.h \
+ /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
+ /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
+ /usr/include/newlib/sys/features.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+ /usr/include/newlib/sys/_timeval.h /usr/include/newlib/sys/_types.h \
+ /usr/include/newlib/machine/_types.h /usr/include/newlib/sys/types.h \
+ /usr/include/newlib/sys/_stdint.h /usr/include/newlib/machine/endian.h \
+ /usr/include/newlib/machine/_endian.h /usr/include/newlib/sys/select.h \
+ /usr/include/newlib/sys/_sigset.h /usr/include/newlib/sys/timespec.h \
+ /usr/include/newlib/sys/_timespec.h \
+ /usr/include/newlib/sys/_pthreadtypes.h /usr/include/newlib/sys/sched.h \
+ /usr/include/newlib/machine/types.h /usr/include/newlib/time.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/machine/time.h \
+ /usr/include/newlib/sys/_locale.h /usr/include/newlib/machine/_time.h \
  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico.h \
  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/types.h \
  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/assert.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/assert.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/stdint.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/_intsup.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+ /usr/include/newlib/assert.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
  /home/burkedambly/adv_emb/lab11/build/generated/pico_base/pico/version.h \
  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/config.h \
  /home/burkedambly/adv_emb/lab11/build/generated/pico_base/pico/config_autogen.h \
@@ -63,18 +47,13 @@ server/CMakeFiles/lab11_server.dir/home/burkedambly/.pico-sdk/sdk/2.0.0/lib/lwip
  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/error.h \
  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_rand/include/pico/rand.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/stdio.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/stdio.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/stdlib.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/stdlib.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/alloca.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/inttypes.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/limits.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/syslimits.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/limits.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/syslimits.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/ctype.h \
+ /usr/include/newlib/stdio.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+ /usr/include/newlib/sys/stdio.h /usr/include/newlib/stdlib.h \
+ /usr/include/newlib/machine/stdlib.h /usr/include/newlib/alloca.h \
+ /usr/include/newlib/inttypes.h /usr/include/newlib/sys/_intsup.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/limits.h \
+ /usr/include/newlib/ctype.h \
  /home/burkedambly/.pico-sdk/sdk/2.0.0/lib/lwip/src/include/lwip/def.h \
  /home/burkedambly/.pico-sdk/sdk/2.0.0/lib/lwip/src/include/lwip/stats.h \
  /home/burkedambly/.pico-sdk/sdk/2.0.0/lib/lwip/src/include/lwip/mem.h \
@@ -82,6 +61,5 @@ server/CMakeFiles/lab11_server.dir/home/burkedambly/.pico-sdk/sdk/2.0.0/lib/lwip
  /home/burkedambly/.pico-sdk/sdk/2.0.0/lib/lwip/src/include/lwip/priv/memp_std.h \
  /home/burkedambly/.pico-sdk/sdk/2.0.0/lib/lwip/src/include/lwip/priv/memp_priv.h \
  /home/burkedambly/.pico-sdk/sdk/2.0.0/lib/lwip/src/include/lwip/priv/mem_priv.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/string.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/strings.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/string.h
+ /usr/include/newlib/string.h /usr/include/newlib/strings.h \
+ /usr/include/newlib/sys/string.h

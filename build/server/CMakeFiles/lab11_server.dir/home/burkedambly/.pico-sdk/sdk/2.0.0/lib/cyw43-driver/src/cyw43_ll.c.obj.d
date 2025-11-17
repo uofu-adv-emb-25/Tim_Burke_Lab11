@@ -1,30 +1,19 @@
 server/CMakeFiles/lab11_server.dir/home/burkedambly/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_ll.c.obj: \
  /home/burkedambly/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_ll.c \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/assert.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/_ansi.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/newlib.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/_newlib_version.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/config.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/ieeefp.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/features.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/string.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/reent.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/_ansi.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/cdefs.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/_default_types.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/_types.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/machine/_types.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/lock.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/_locale.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/strings.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/string.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/inttypes.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/_intsup.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/stdint.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/_stdint.h \
+ /usr/include/newlib/assert.h /usr/include/newlib/_ansi.h \
+ /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
+ /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
+ /usr/include/newlib/sys/features.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+ /usr/include/newlib/string.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/_locale.h \
+ /usr/include/newlib/strings.h /usr/include/newlib/sys/string.h \
+ /usr/include/newlib/inttypes.h /usr/include/newlib/sys/_intsup.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
  /home/burkedambly/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_config.h \
  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_cyw43_driver/include/cyw43_configport.h \
  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico.h \
@@ -66,9 +55,9 @@ server/CMakeFiles/lab11_server.dir/home/burkedambly/.pico-sdk/sdk/2.0.0/lib/cyw4
  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_timer/include/hardware/timer.h \
  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/stdio.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
- /home/burkedambly/.pico-sdk/toolchain/13_2_Rel1/arm-none-eabi/include/sys/stdio.h \
+ /usr/include/newlib/stdio.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+ /usr/include/newlib/sys/stdio.h \
  /home/burkedambly/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_country.h \
  /home/burkedambly/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_ll.h \
  /home/burkedambly/.pico-sdk/sdk/2.0.0/lib/cyw43-driver/src/cyw43_internal.h \

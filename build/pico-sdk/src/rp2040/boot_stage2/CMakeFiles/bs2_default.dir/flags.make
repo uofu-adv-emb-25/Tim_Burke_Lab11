@@ -6,5 +6,5 @@ ASM_DEFINES = -DPICO_32BIT=1 -DPICO_BOARD=\"pico_w\" -DPICO_BUILD=1 -DPICO_NO_HA
 
 ASM_INCLUDES = -I/home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2040/boot_stage2/asminclude -isystem /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include -isystem /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_base/include -isystem /home/burkedambly/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include -isystem /home/burkedambly/adv_emb/lab11/build/generated/pico_base -isystem /home/burkedambly/.pico-sdk/sdk/2.0.0/src/boards/include -isystem /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/include -isystem /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_compiler/include -isystem /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/include -isystem /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_sections/include -isystem /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2040/boot_stage2/include
 
-ASM_FLAGS = -mcpu=cortex-m0plus -mthumb -g -O3 -DNDEBUG
+ASM_FLAGS = -mcpu=cortex-m0plus -mthumb -Og -g
 

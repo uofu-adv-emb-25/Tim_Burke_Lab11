@@ -37,6 +37,7 @@
 
 #define BTSTACK_FILE__ "gatt_counter.c"
 
+
 // *****************************************************************************
 /* EXAMPLE_START(gatt_counter): GATT Server - Heartbeat Counter over GATT
  *
@@ -51,6 +52,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
 
 #include "gatt_counter.h"
 #include "btstack.h"
@@ -89,7 +91,7 @@ const uint8_t adv_data[] = {
     // Flags general discoverable
     0x02, BLUETOOTH_DATA_TYPE_FLAGS, APP_AD_FLAGS,
     // Name
-    11, BLUETOOTH_DATA_TYPE_COMPLETE_LOCAL_NAME, 'T', 'i', 'm', ' ', 'B', 'u', 'r', 'k', 'e',
+    11, BLUETOOTH_DATA_TYPE_COMPLETE_LOCAL_NAME, 'T', 'i', 'm', '-', 'B', 'u', 'r', 'k', 'e',
     // Incomplete List of 16-bit Service Class UUIDs -- FF10 - only valid for testing!
     0x03, BLUETOOTH_DATA_TYPE_INCOMPLETE_LIST_OF_16_BIT_SERVICE_CLASS_UUIDS, 0x10, 0xff,
 };
