@@ -1,7 +1,0 @@
-/Users/timothyfelt/Tim_Burke_Lab11/build/pioasm/CMakeFiles/pioasm.dir
-/Users/timothyfelt/Tim_Burke_Lab11/build/pioasm/CMakeFiles/edit_cache.dir
-/Users/timothyfelt/Tim_Burke_Lab11/build/pioasm/CMakeFiles/rebuild_cache.dir
-/Users/timothyfelt/Tim_Burke_Lab11/build/pioasm/CMakeFiles/list_install_components.dir
-/Users/timothyfelt/Tim_Burke_Lab11/build/pioasm/CMakeFiles/install.dir
-/Users/timothyfelt/Tim_Burke_Lab11/build/pioasm/CMakeFiles/install/local.dir
-/Users/timothyfelt/Tim_Burke_Lab11/build/pioasm/CMakeFiles/install/strip.dir

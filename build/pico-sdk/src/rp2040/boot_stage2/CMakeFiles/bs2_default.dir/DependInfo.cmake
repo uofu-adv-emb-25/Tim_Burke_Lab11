@@ -8,13 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/Users/timothyfelt/pico-sdk/src/rp2040/boot_stage2/compile_time_choice.S" "/Users/timothyfelt/Tim_Burke_Lab11/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.o"
+  "/home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2040/boot_stage2/compile_time_choice.S" "/home/burkedambly/adv_emb/lab11/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_ASM
-  "LIB_BOOT_STAGE2_HEADERS=1"
   "PICO_32BIT=1"
   "PICO_BOARD=\"pico_w\""
   "PICO_BUILD=1"
@@ -25,18 +24,17 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
-  "/Users/timothyfelt/pico-sdk/src/rp2040/boot_stage2/asminclude"
-  "/Users/timothyfelt/pico-sdk/src/rp2040/hardware_regs/include"
-  "/Users/timothyfelt/pico-sdk/src/rp2_common/hardware_base/include"
-  "/Users/timothyfelt/pico-sdk/src/common/pico_base_headers/include"
+  "/home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2040/boot_stage2/asminclude"
+  "/home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include"
+  "/home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_base/include"
+  "/home/burkedambly/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include"
   "generated/pico_base"
-  "/Users/timothyfelt/pico-sdk/src/boards/include"
-  "/Users/timothyfelt/pico-sdk/src/rp2040/pico_platform/include"
-  "/Users/timothyfelt/pico-sdk/src/rp2_common/pico_platform_common/include"
-  "/Users/timothyfelt/pico-sdk/src/rp2_common/pico_platform_compiler/include"
-  "/Users/timothyfelt/pico-sdk/src/rp2_common/pico_platform_panic/include"
-  "/Users/timothyfelt/pico-sdk/src/rp2_common/pico_platform_sections/include"
-  "/Users/timothyfelt/pico-sdk/src/rp2040/boot_stage2/include"
+  "/home/burkedambly/.pico-sdk/sdk/2.0.0/src/boards/include"
+  "/home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/include"
+  "/home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_compiler/include"
+  "/home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/include"
+  "/home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_sections/include"
+  "/home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2040/boot_stage2/include"
   )
 
 # The set of dependency files which are needed:

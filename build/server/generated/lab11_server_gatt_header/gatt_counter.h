@@ -1,10 +1,10 @@
 
 // clang-format off
-// /Users/timothyfelt/Tim_Burke_Lab11/build/server/generated/lab11_server_gatt_header/gatt_counter.h generated from /Users/timothyfelt/Tim_Burke_Lab11/include/gatt_counter.gatt for BTstack
+// /home/burkedambly/adv_emb/lab11/build/server/generated/lab11_server_gatt_header/gatt_counter.h generated from /home/burkedambly/adv_emb/lab11/include/gatt_counter.gatt for BTstack
 // it needs to be regenerated when the .gatt file is updated. 
 
-// To generate /Users/timothyfelt/Tim_Burke_Lab11/build/server/generated/lab11_server_gatt_header/gatt_counter.h:
-// /Users/timothyfelt/pico-sdk/lib/btstack/tool/compile_gatt.py /Users/timothyfelt/Tim_Burke_Lab11/include/gatt_counter.gatt /Users/timothyfelt/Tim_Burke_Lab11/build/server/generated/lab11_server_gatt_header/gatt_counter.h
+// To generate /home/burkedambly/adv_emb/lab11/build/server/generated/lab11_server_gatt_header/gatt_counter.h:
+// /home/burkedambly/.pico-sdk/sdk/2.0.0/lib/btstack/tool/compile_gatt.py /home/burkedambly/adv_emb/lab11/include/gatt_counter.gatt /home/burkedambly/adv_emb/lab11/build/server/generated/lab11_server_gatt_header/gatt_counter.h
 
 // att db format version 1
 
@@ -53,7 +53,7 @@ const uint8_t profile_data[] =
     0x0d, 0x00, 0x02, 0x00, 0x09, 0x00, 0x03, 0x28, 0x02, 0x0a, 0x00, 0x2a, 0x2b, 
     // 0x000a VALUE CHARACTERISTIC-GATT_DATABASE_HASH - READ -''
     // READ_ANYBODY
-    0x18, 0x00, 0x02, 0x00, 0x0a, 0x00, 0x2a, 0x2b, 0x54, 0xf7, 0x18, 0xad, 0xf5, 0xf4, 0x09, 0xb0, 0x90, 0x6f, 0x13, 0x9e, 0x88, 0x67, 0x59, 0x1c, 
+    0x18, 0x00, 0x02, 0x00, 0x0a, 0x00, 0x2a, 0x2b, 0xe2, 0x30, 0x77, 0xfc, 0xa3, 0x09, 0x95, 0x37, 0x8c, 0x37, 0x6d, 0x54, 0xf7, 0xe6, 0xa4, 0x13, 
     // Counter Service
     // 0x000b PRIMARY_SERVICE-0000FF10-0000-1000-8000-00805F9B34FB
     0x18, 0x00, 0x02, 0x00, 0x0b, 0x00, 0x00, 0x28, 0xfb, 0x34, 0x9b, 0x5f, 0x80, 0x00, 0x00, 0x80, 0x00, 0x10, 0x00, 0x00, 0x10, 0xff, 0x00, 0x00, 
