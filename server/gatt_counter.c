@@ -230,10 +230,17 @@ static uint16_t att_read_callback(hci_con_handle_t connection_handle, uint16_t a
     else if(att_handle == ATT_CHARACTERISTIC_0x2A6E_01_VALUE_HANDLE){
         float temp_measurement = temperature_poll();
         printf("Measured temperature: %0.2f\n", temp_measurement);
-        uint16_t data = 0;
-        
-        data = (uint16_t)(temp_measurement*100);
-    
+
+
+        int8_t integer_part = (int8_t)temp_measurement;
+        float frac_f = (temp_measurement - integer_part) * 100.0f;
+        if (frac_f < 0) {
+            frac_f = -frac_f;
+        }
+        uint8_t frac_part = (uint8_t)(frac_f + 0.5f);  // round to nearest
+
+        uint16_t data = ((uint8_t)integer_part) | ((uint16_t)frac_part << 8);
+
         return att_read_callback_handle_little_endian_16(data, offset, buffer, buffer_size);
     }
     return 0;
