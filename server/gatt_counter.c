@@ -58,6 +58,7 @@
 #include "btstack.h"
 #include "ble/gatt-service/battery_service_server.h"
 
+
 #define HEARTBEAT_PERIOD_MS 1000
 
 /* @section Main Application Setup
@@ -109,6 +110,8 @@ static void le_counter_setup(void){
 
     // setup battery service
     battery_service_server_init(battery);
+
+    temperature_setup();
 
     // setup advertisements
     uint16_t adv_int_min = 0x0030;
