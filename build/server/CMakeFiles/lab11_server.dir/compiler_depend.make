@@ -64,6 +64,7 @@ server/CMakeFiles/lab11_server.dir/gatt_counter.c.obj: /home/burkedambly/adv_emb
   /home/burkedambly/.pico-sdk/sdk/2.0.0/lib/btstack/src/le-audio/le_audio_util.h \
   server/generated/lab11_server_gatt_header/gatt_counter.h \
   /home/burkedambly/adv_emb/lab11/include/btstack_config.h \
+  /home/burkedambly/adv_emb/lab11/include/temp_sense.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/_newlib_version.h \
   /usr/include/newlib/alloca.h \
@@ -15040,6 +15041,60 @@ server/CMakeFiles/lab11_server.dir/picow_bt_example_freertos.c.obj: /home/burked
   /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
 
+server/CMakeFiles/lab11_server.dir/temp_sense.c.obj: /home/burkedambly/adv_emb/lab11/server/temp_sense.c \
+  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/boards/include/boards/pico_w.h \
+  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico.h \
+  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/assert.h \
+  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/config.h \
+  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/error.h \
+  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/types.h \
+  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/adc.h \
+  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_structs/include/hardware/structs/adc.h \
+  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_adc/include/hardware/adc.h \
+  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  /home/burkedambly/adv_emb/lab11/include/FreeRTOSConfig.h \
+  /home/burkedambly/adv_emb/lab11/include/temp_sense.h \
+  /home/burkedambly/lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  /home/burkedambly/lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
+
+
+/home/burkedambly/adv_emb/lab11/server/temp_sense.c:
 
 /home/burkedambly/adv_emb/lab11/include/picow_bt_example_common.h:
 
@@ -15233,6 +15288,8 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h:
 
+/home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h:
+
 /usr/include/newlib/machine/types.h:
 
 /home/burkedambly/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/tusb.h:
@@ -15292,8 +15349,6 @@ generated/pico_base/pico/config_autogen.h:
 /home/burkedambly/.pico-sdk/sdk/2.0.0/lib/lwip/src/include/lwip/udp.h:
 
 /home/burkedambly/.pico-sdk/sdk/2.0.0/lib/btstack/src/mesh/gatt-service/mesh_proxy_service_server.c:
-
-/usr/include/newlib/sys/sched.h:
 
 /home/burkedambly/lib/freertos/include/projdefs.h:
 
@@ -15435,6 +15490,12 @@ generated/pico_base/pico/config_autogen.h:
 
 /home/burkedambly/.pico-sdk/sdk/2.0.0/src/common/pico_util/include/pico/util/queue.h:
 
+/home/burkedambly/.pico-sdk/sdk/2.0.0/lib/btstack/src/ble/gatt-service/hids_device.c:
+
+/home/burkedambly/.pico-sdk/sdk/2.0.0/lib/lwip/src/include/netif/lowpan6.h:
+
+/home/burkedambly/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/include/hardware/claim.h:
+
 /home/burkedambly/.pico-sdk/sdk/2.0.0/lib/tinyusb/src/class/vendor/vendor_device.h:
 
 /home/burkedambly/.pico-sdk/sdk/2.0.0/lib/btstack/src/hci.h:
@@ -15521,6 +15582,10 @@ server/generated/lab11_server_gatt_header/gatt_counter.h:
 
 /home/burkedambly/.pico-sdk/sdk/2.0.0/lib/btstack/src/mesh/gatt-service/mesh_provisioning_service_server.c:
 
+/home/burkedambly/.pico-sdk/sdk/2.0.0/lib/lwip/src/include/lwip/prot/ethernet.h:
+
+/home/burkedambly/.pico-sdk/sdk/2.0.0/lib/btstack/src/btstack_chipset.h:
+
 /usr/include/newlib/sys/_sigset.h:
 
 /home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2_common/hardware_base/include/hardware/address_mapped.h:
@@ -15560,16 +15625,6 @@ server/generated/lab11_server_gatt_header/gatt_counter.h:
 /home/burkedambly/.pico-sdk/sdk/2.0.0/lib/btstack/src/hci_dump.c:
 
 /home/burkedambly/.pico-sdk/sdk/2.0.0/lib/lwip/src/core/ipv6/dhcp6.c:
-
-/home/burkedambly/.pico-sdk/sdk/2.0.0/lib/btstack/src/ble/gatt-service/hids_device.c:
-
-/home/burkedambly/.pico-sdk/sdk/2.0.0/lib/btstack/src/btstack_chipset.h:
-
-/home/burkedambly/.pico-sdk/sdk/2.0.0/lib/lwip/src/include/lwip/prot/ethernet.h:
-
-/home/burkedambly/.pico-sdk/sdk/2.0.0/lib/lwip/src/include/netif/lowpan6.h:
-
-/home/burkedambly/.pico-sdk/sdk/2.0.0/src/common/hardware_claim/include/hardware/claim.h:
 
 /home/burkedambly/.pico-sdk/sdk/2.0.0/lib/lwip/src/include/lwip/priv/mem_priv.h:
 
@@ -15630,6 +15685,10 @@ server/generated/lab11_server_gatt_header/gatt_counter.h:
 /home/burkedambly/.pico-sdk/sdk/2.0.0/lib/lwip/src/include/lwip/ip_addr.h:
 
 /home/burkedambly/.pico-sdk/sdk/2.0.0/src/common/pico_util/include/pico/util/datetime.h:
+
+/home/burkedambly/.pico-sdk/sdk/2.0.0/lib/btstack/src/ble/gatt-service/nordic_spp_service_server.c:
+
+/usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h:
 
 /home/burkedambly/.pico-sdk/sdk/2.0.0/src/common/pico_base_headers/include/pico/types.h:
 
@@ -15827,10 +15886,6 @@ server/generated/lab11_server_gatt_header/gatt_counter.h:
 
 /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h:
 
-/home/burkedambly/.pico-sdk/sdk/2.0.0/lib/btstack/src/ble/gatt-service/nordic_spp_service_server.c:
-
-/usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h:
-
 /home/burkedambly/.pico-sdk/sdk/2.0.0/src/common/pico_binary_info/include/pico/binary_info/code.h:
 
 /home/burkedambly/.pico-sdk/sdk/2.0.0/lib/btstack/3rd-party/micro-ecc/uECC.h:
@@ -15878,6 +15933,8 @@ server/generated/lab11_server_gatt_header/gatt_counter.h:
 /home/burkedambly/.pico-sdk/sdk/2.0.0/lib/lwip/src/netif/ppp/polarssl/arc4.c:
 
 /usr/include/newlib/sys/select.h:
+
+/usr/include/newlib/sys/sched.h:
 
 /usr/include/newlib/c++/13.2.1/bits/std_abs.h:
 
@@ -15994,6 +16051,8 @@ server/generated/lab11_server_gatt_header/gatt_counter.h:
 /usr/include/newlib/sys/_locale.h:
 
 /home/burkedambly/.pico-sdk/sdk/2.0.0/lib/lwip/src/include/lwip/netdb.h:
+
+/home/burkedambly/adv_emb/lab11/include/temp_sense.h:
 
 /home/burkedambly/.pico-sdk/sdk/2.0.0/lib/lwip/src/include/lwip/prot/iana.h:
 
@@ -16114,8 +16173,6 @@ server/generated/lab11_server_gatt_header/gatt_counter.h:
 /home/burkedambly/.pico-sdk/sdk/2.0.0/lib/lwip/src/include/lwip/priv/api_msg.h:
 
 /home/burkedambly/.pico-sdk/sdk/2.0.0/lib/lwip/src/include/lwip/priv/sockets_priv.h:
-
-/home/burkedambly/.pico-sdk/sdk/2.0.0/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h:
 
 /home/burkedambly/.pico-sdk/sdk/2.0.0/lib/btstack/src/btstack_debug.h:
 

@@ -502,6 +502,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/lab11_server.dir/home/burkedambly/lib/freertos/timers.c.obj.d"
   "CMakeFiles/lab11_server.dir/picow_bt_example_freertos.c.obj"
   "CMakeFiles/lab11_server.dir/picow_bt_example_freertos.c.obj.d"
+  "CMakeFiles/lab11_server.dir/temp_sense.c.obj"
+  "CMakeFiles/lab11_server.dir/temp_sense.c.obj.d"
   "lab11_server.elf"
   "lab11_server.pdb"
 )

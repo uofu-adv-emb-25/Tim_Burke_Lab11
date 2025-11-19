@@ -1360,21 +1360,21 @@
 				{
 					"directoryIndex" : 95,
 					"id" : "flash_server::@d19778d2e34a1e3ddfc0",
-					"jsonFile" : "target-flash_server-Debug-ab0e6470f9c7763cc6f2.json",
+					"jsonFile" : "target-flash_server-Debug-34d54808d4ef8abf6ff8.json",
 					"name" : "flash_server",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 95,
 					"id" : "lab11_server::@d19778d2e34a1e3ddfc0",
-					"jsonFile" : "target-lab11_server-Debug-7600b8b7be9fbc6c6c05.json",
+					"jsonFile" : "target-lab11_server-Debug-c875ace71362958f8ac4.json",
 					"name" : "lab11_server",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 95,
 					"id" : "lab11_server_gatt_header::@d19778d2e34a1e3ddfc0",
-					"jsonFile" : "target-lab11_server_gatt_header-Debug-a9e5570e960603e8ca65.json",
+					"jsonFile" : "target-lab11_server_gatt_header-Debug-5a10082f0fef2f1aa344.json",
 					"name" : "lab11_server_gatt_header",
 					"projectIndex" : 0
 				}
