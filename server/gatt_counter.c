@@ -37,6 +37,7 @@
 
 #define BTSTACK_FILE__ "gatt_counter.c"
 
+
 // *****************************************************************************
 /* EXAMPLE_START(gatt_counter): GATT Server - Heartbeat Counter over GATT
  *
@@ -52,9 +53,12 @@
 #include <stdlib.h>
 #include <string.h>
 
+
 #include "gatt_counter.h"
 #include "btstack.h"
 #include "ble/gatt-service/battery_service_server.h"
+#include "temp_sense.h"
+
 
 #define HEARTBEAT_PERIOD_MS 1000
 
@@ -89,7 +93,7 @@ const uint8_t adv_data[] = {
     // Flags general discoverable
     0x02, BLUETOOTH_DATA_TYPE_FLAGS, APP_AD_FLAGS,
     // Name
-    11, BLUETOOTH_DATA_TYPE_COMPLETE_LOCAL_NAME, 'T', 'i', 'm', '-', 'B', 'u', 'r', 'k', 'e',
+    11, BLUETOOTH_DATA_TYPE_COMPLETE_LOCAL_NAME, 'T', 'i', 'm', ' ', 'B', 'u', 'r', 'k', 'e',
     // Incomplete List of 16-bit Service Class UUIDs -- FF10 - only valid for testing!
     0x03, BLUETOOTH_DATA_TYPE_INCOMPLETE_LIST_OF_16_BIT_SERVICE_CLASS_UUIDS, 0x10, 0xff,
 };
@@ -107,6 +111,8 @@ static void le_counter_setup(void){
 
     // setup battery service
     battery_service_server_init(battery);
+
+    temperature_setup();
 
     // setup advertisements
     uint16_t adv_int_min = 0x0030;
@@ -220,6 +226,22 @@ static uint16_t att_read_callback(hci_con_handle_t connection_handle, uint16_t a
 
     if (att_handle == ATT_CHARACTERISTIC_0000FF11_0000_1000_8000_00805F9B34FB_01_VALUE_HANDLE){
         return att_read_callback_handle_blob((const uint8_t *)counter_string, counter_string_len, offset, buffer, buffer_size);
+    }
+    else if(att_handle == ATT_CHARACTERISTIC_0x2A6E_01_VALUE_HANDLE){
+        float temp_measurement = temperature_poll();
+        printf("Measured temperature: %0.2f\n", temp_measurement);
+
+
+        int8_t integer_part = (int8_t)temp_measurement;
+        float frac_f = (temp_measurement - integer_part) * 100.0f;
+        if (frac_f < 0) {
+            frac_f = -frac_f;
+        }
+        uint8_t frac_part = (uint8_t)(frac_f + 0.5f);  // round to nearest
+
+        uint16_t data = ((uint8_t)integer_part) | ((uint16_t)frac_part << 8);
+
+        return att_read_callback_handle_little_endian_16(data, offset, buffer, buffer_size);
     }
     return 0;
 }
